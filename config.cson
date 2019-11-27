@@ -1,0 +1,59 @@
+"*":
+  "atom-ide-ui":
+    "atom-ide-code-format":
+      formatOnSave: true
+    use: {}
+  "atom-package-deps":
+    ignored: [
+      "linter-ui-default"
+    ]
+  "autocomplete-python":
+    useKite: false
+  core:
+    disabledPackages: [
+      "gometalinter-linter"
+      "tidy-markdown"
+      "linter-python"
+      "SFTP-deployment"
+      "atom-solidity-linter"
+      "linter"
+    ]
+    telemetryConsent: "limited"
+    themes: [
+      "lanai-dark-ui"
+      "base16-tomorrow-dark-theme"
+    ]
+  editor:
+    backUpBeforeSaving: true
+    fontSize: 12
+    invisibles: {}
+    showInvisibles: true
+    tabLength: 4
+  "exception-reporting":
+    userId: "6d44b81f-b561-a855-c46c-1cb796accdce"
+  "file-icons": {}
+  "git-blame": {}
+  "go-plus":
+    currentPanelHeight: "11.666666666666666vh"
+    disabledBundledPackages: [
+      "go-debug"
+    ]
+    panel:
+      currentHeight: "25vh"
+  kite:
+    editorMetricsEnabled: "no"
+    showDocsNotificationOnStartup: false
+    showKiteTourOnStartup: false
+    sidebarWidth: 345
+  linter: {}
+  "linter-pydocstyle":
+    executablePath: "/usr/local/bin/pydocstyle"
+  "linter-ui-default":
+    panelHeight: 81
+    showPanel: true
+  "make-executable": {}
+  phpfmt:
+    lintBefore: true
+    psr2: true
+  welcome:
+    showOnStartup: false
